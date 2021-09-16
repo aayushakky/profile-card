@@ -6,13 +6,13 @@
 .BgIMG{
     width: 100%;
     height: 100vh;
-    background: url('3.jpg');
+    background: url('hd.jpg');
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 .profile{
@@ -44,5 +44,5 @@ img{
 }
 
 i{
-   color: white;
+   color: black;
 }
