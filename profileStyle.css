@@ -27,6 +27,7 @@ img{
     border-radius: 70%;
     margin-bottom: 20px;
 }
+
 .profileText{
     margin-bottom: 20px;
 }
@@ -37,6 +38,7 @@ img{
     margin-bottom: 7px;
 }
 
+
 .profileText h3{
     font-size: 1.4em;
     font-weight: 500;
@@ -44,10 +46,5 @@ img{
 }
 
 i{
-<<<<<<< HEAD
    color: black;
 }
-=======
-   color: white;
-}
->>>>>>> a2fb03f8a181b7dffbbeadb771cd3f78345e4ae8
