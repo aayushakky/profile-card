@@ -3,6 +3,18 @@
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
+nav ul{
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0 20px;
+    text-transform: capitalize;
+    line-height: 60px;
+    color: black;
+    font-size: 22px;
+}
 .BgIMG{
     width: 100%;
     height: 100vh;
@@ -16,7 +28,7 @@
 }
 
 .profile{
-    width: 360px;
+    width: 350px;
     background-color: rgba(0,0,0,0.3);
     padding: 30px 0;
     border-radius: 10%;
@@ -28,26 +40,64 @@ img{
     margin-bottom: 20px;
 }
 .profileText{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+
 }
 
-.profileText h2{
+.profileText h1{
     font-size: 2em;
     font-weight: 500;
     margin-bottom: 7px;
+    color: beige;
 }
 
-.profileText h3{
-    font-size: 1.4em;
+.profileText h2{
+    font-size: 1em;
     font-weight: 500;
     margin-bottom: 10px;
+    color: beige;
+    text-transform: uppercase;
+}
+.profileText p{
+    color: beige;
+}
+.profile:hover{
+    color: black;
+    box-shadow: 0 0 15px whitesmoke,
+              3px 3px 10px rgba(0,0,0,.2);
+}
+i{
+   color: whitesmoke;
+   margin-right: 10px;
 }
 
-i{
-<<<<<<< HEAD
-   color: black;
-}
-=======
-   color: white;
-}
->>>>>>> a2fb03f8a181b7dffbbeadb771cd3f78345e4ae8
+@media(max-width:768px){ 
+    .BgIMG{
+        width: 100%;
+        height: 100vh;
+        background-image: url('hd.jpg');
+        background-size:block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: cadetblue;
+    }
+    
+    .profile
+              {
+        width: 350px;
+        background-color: rgba(0,0,0,0.3);
+        padding: 35px 0;
+        border-radius: 10%;
+        box-shadow: -3px -3px 10px rgba(255,255,255,.7),
+                    3px 3px 10px rgba(0,0,0,.2);
+        display: inline-block;
+               }
+     .profile:hover{
+        color:whitesmoke;
+        box-shadow: inset -3px -3px 10px rgba(255,255,255,.7),
+                    inset 3px 3px 10px rgba(0,0,0,.2);
+
+                 }
+    }
